@@ -25,4 +25,4 @@ grafico3 = sns.countplot(x='Genero', hue='Velocidad', palette='hot_r', data= ath
 grafico3.set(title='Velocidades por genero', xlabel='Genero', ylabel='Total')
 plt.title('Grafico de Barras Genero')
 plt.savefig('Genero.jpg')
-# plt.show()
+plt.show()
