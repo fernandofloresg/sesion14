@@ -20,6 +20,7 @@ plt.savefig("Velocidades.jpg")
 
 #Si queremos saber las velocidades en hombres y mujeres
 plt.figure(3)
+plt.title('Grafico de Barras Genero')
 # Changed something in here
 grafico3 = sns.countplot(x='Genero', hue='Velocidad', palette='hot_r', data= athletes)
 grafico3.set(title='Velocidades por genero', xlabel='Genero', ylabel='Total')
